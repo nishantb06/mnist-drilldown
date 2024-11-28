@@ -1,6 +1,11 @@
-# Logs
+# 99.4 % Accuracy for MNIST with just 14k parameter CNN and 20 epochs
+
+[![Model Architecture Tests](https://github.com/nishantb06/mnist-drilldown/actions/workflows/model-checklist.yaml/badge.svg)](https://github.com/nishantb06/mnist-drilldown/actions/workflows/model-checklist.yaml)
+
+## Logs
 
 Model size for the NetV3 model:
+
 ```
 ----------------------------------------------------------------
         Layer (type)               Output Shape         Param #
@@ -46,6 +51,7 @@ Estimated Total Size (MB): 1.12
 ```
 
 Logs for the NetV3 model:
+
 ```
 loss=0.21186162531375885 batch_id=468: 100%|██████████| 469/469 [00:23<00:00, 20.19it/s]
 
